@@ -10,5 +10,9 @@
   "license": "ISC",
   "dependencies": {
     "gulp": "^4.0.2"
+  },
+  "devDependencies": {
+    "gulp-clean": "^0.4.0",
+    "gulp-copy": "^4.0.1"
   }
 }
