@@ -26,8 +26,6 @@ const jsWatcher = () => {
 };
 
 
-
-
 exports.copyCSS = copyCSS;
 exports.moveJS = moveJS;
 exports.moveIndex = moveIndex;
@@ -35,4 +33,7 @@ exports.moveIndex = moveIndex;
 exports.copy = parallel(copyCSS, moveJS, moveIndex);
 exports.cssWatcher =cssWatcher;
 exports.jsWatcher = jsWatcher;
+
+
+
 
